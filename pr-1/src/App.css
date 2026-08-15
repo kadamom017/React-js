@@ -1,0 +1,196 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #1f2937;
+  font-size: 16px;
+  border-radius: 15px;
+  color: white;
+}
+
+main {
+  flex: 1;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.welcome-section h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+}
+
+.student-info {
+  max-width: 700px;
+  margin: 20px auto 60px;
+  padding: 30px;
+  border-radius: 12px;
+  background: #f3f4f6;
+}
+
+.student-info h2 {
+  margin-bottom: 25px;
+}
+
+.student-info p {
+  font-size: 17px;
+  margin: 12px 0;
+}
+
+.project-image {
+  display: block;
+  width: 120px;
+  margin: 25px auto 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f2937;
+  color: white;
+}
+
+.rest-spread-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 20px;
+}
+
+.rest-spread-section > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.output-card {
+  background: #f3f4f6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.output-card h2 {
+  margin-bottom: 15px;
+}
+
+.output-card p {
+  margin: 8px 0;
+}
+
+.students-section {
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+
+}
+
+.students-section > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.students-container {
+  display: flex;
+  gap: 20px;
+}
+
+.student-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.student-card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.student-card p {
+  margin: 8px 0;
+}
+
+.state-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.state-card {
+  width: 100%;
+  max-width: 600px;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.state-card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.state-card p {
+  margin: 10px 0;
+}
+
+.state-card button {
+  margin: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.manager-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.manager-card {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: #f3f4f6;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 30px;
+}
+
+.student-list {
+  text-align: center;
+}
