@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react'
 
 const StudentManager = () => {
-  // State to store the student name entered in the input
+  
   const [studentName, setStudentName] = useState('')
 
-  // State to store all students
+
   const [students, setStudents] = useState([])
 
-  // Retrieve students from Local Storage when the component loads
   useEffect(() => {
     const savedStudents = localStorage.getItem('students')
 
@@ -16,12 +15,12 @@ const StudentManager = () => {
     }
   }, [])
 
-  // Save students to Local Storage whenever the students list changes
+ 
   useEffect(() => {
     localStorage.setItem('students', JSON.stringify(students))
   }, [students])
 
-  // Add a new student
+
   const addStudent = () => {
     if (studentName.trim() === '') {
       return
@@ -36,7 +35,7 @@ const StudentManager = () => {
     setStudentName('')
   }
 
-  // Delete a student
+ 
   const deleteStudent = (id) => {
     const updatedStudents = students.filter(
       (student) => student.id !== id
