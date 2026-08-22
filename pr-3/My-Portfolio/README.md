@@ -1,16 +1,89 @@
-# React + Vite
+# My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive portfolio website created using React-Bootstrap.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a single-page portfolio website divided into five main sections:
 
-## React Compiler
+1. Header
+2. Slider
+3. Work
+4. Contact
+5. Footer
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each section is created as a separate React component and combined in the main `App.jsx` file.
 
-## Expanding the Oxlint configuration
+The project focuses on component-based development, responsive layout design, React state management, and the use of React-Bootstrap components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+* React
+* Vite
+* JavaScript
+* Bootstrap
+* React-Bootstrap
+* CSS
+
+## Project Structure
+
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Slider.jsx
+│   ├── Work.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Sections
+
+### Header
+
+The Header component contains the website logo, Work, Studio, contact and Start a Project button.
+
+### Slider
+
+The Slider component displays different slides containing information about Website, Detailed-Content and main-sections.
+
+The slides change automatically after a fixed-timeperiod and Users can also manually select a slide using the indicators on the right side.
+
+React hooks such as `useState`, `useEffect`, and `useRef` are used to manage the active slide and timer.
+
+### Work
+
+The Work section displays selected projects in a structured layout.
+
+Each project contains:
+
+* Project number
+* Project name
+* Description
+* Category
+* Year
+
+The project information is stored in an array and displayed dynamically using the `map()` method and these all project data's are dummy data and not contain real data.
+
+### Contact
+
+The Contact section contains a form with:
+
+* Name
+* Email
+* Project details
+
+React's `useState` hook is used to manage the form data.
+
+When the form is submitted, the default page get's refreshed and a success message is displayed.
+
+### Footer
+
+The Footer component displays the studio name, copyright information, and social media links.
+
+The current year is generated dynamically using JavaScript.
+

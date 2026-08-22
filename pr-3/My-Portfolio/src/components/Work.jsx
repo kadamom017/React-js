@@ -4,47 +4,47 @@ import { Container, Row, Col } from "react-bootstrap";
 const PROJECTS = [
   {
     index: "01",
-    name: "Ferro & Co.",
+    name: "Northbay Coffee",
     category: "Identity, Web",
     year: "2025",
-    blurb: "A metalwork studio's brand rebuilt around the grain and grit of its own materials.",
+    blurb: "A local coffee brand given a warmer identity and a simple online presence built for everyday customers.",
   },
   {
     index: "02",
-    name: "Halcyon Health",
+    name: "Beastin Fitness",
     category: "Product design",
     year: "2025",
-    blurb: "Patient scheduling redesigned to cut booking time from six minutes to under one.",
+    blurb: "A fitness platform redesigned to make class schedules and membership information easier to access.",
   },
   {
     index: "03",
-    name: "Rootstock",
+    name: "GreenBasket",
     category: "Web & CMS",
     year: "2024",
-    blurb: "A regional farm network's storefront, rebuilt on Next.js for a 40% faster load.",
+    blurb: "An online grocery concept focused on simple product browsing and a faster shopping experience.",
   },
   {
     index: "04",
-    name: "Aperture Journal",
+    name: "Frame Journal",
     category: "Identity, Editorial",
     year: "2024",
-    blurb: "Type system and print-to-web identity for an independent photography magazine.",
+    blurb: "A digital magazine concept created around photography, stories, and clean editorial layouts.",
   },
 ];
 
 export default function Work() {
   return (
-    <section id="work" style={{ background: "var(--ink)", padding: "7rem 0" }}>
+    <section id="work" style={{ background: "var(--ink)", padding: "110px 0" }}>
       <Container className="container-wide">
         <Row className="align-items-end mb-5 pb-3" style={{ borderBottom: "1px solid var(--line)" }}>
           <Col md={8}>
             <p className="eyebrow mb-3">Selected work</p>
-            <h2 style={{ fontSize: "clamp(1.8rem, 3.4vw, 2.6rem)", color: "var(--paper)" }}>
+            <h2 style={{ fontSize: "clamp(28px, 3.4vw, 41px)", color: "var(--paper)" }}>
               A handful of the projects we&apos;re proudest of.
             </h2>
           </Col>
           <Col md={4} className="mt-3 mt-md-0">
-            <p style={{ color: "var(--muted)", fontSize: "0.95rem" }}>
+            <p style={{ color: "var(--muted)", fontSize: "15px" }}>
               Four studios, two products, and one magazine — a small sample of work
               spanning brand, product and web.
             </p>
@@ -66,7 +66,7 @@ export default function Work() {
               <Col xs={10} md={5}>
                 <h3
                   style={{
-                    fontSize: "1.6rem",
+                    fontSize: "25px",
                     color: "var(--paper)",
                     fontStyle: "italic",
                   }}
@@ -75,14 +75,14 @@ export default function Work() {
                 </h3>
               </Col>
               <Col md={4} className="mt-2 mt-md-0">
-                <p style={{ color: "var(--muted)", fontSize: "0.92rem", margin: 0 }}>{p.blurb}</p>
+                <p style={{ color: "var(--muted)", fontSize: "14px", margin: 0 }}>{p.blurb}</p>
               </Col>
               <Col md={2} className="mt-2 mt-md-0 text-md-end">
-                <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.8rem", color: "var(--gold)" }}>
+                <span style={{ fontFamily: "var(--font-mono)", fontSize: "10px", color: "var(--gold)" }}>
                   {p.category}
                 </span>
                 <br />
-                <span style={{ fontFamily: "var(--font-mono)", fontSize: "0.75rem", color: "var(--muted)" }}>
+                <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", color: "var(--muted)" }}>
                   {p.year}
                 </span>
               </Col>

@@ -12,7 +12,7 @@ export default function Footer() {
               style={{
                 fontFamily: "var(--font-display)",
                 fontStyle: "italic",
-                fontSize: "1.15rem",
+                fontSize: "18px",
                 color: "var(--paper)",
               }}
             >

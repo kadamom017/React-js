@@ -37,7 +37,7 @@ export default function Header() {
             style={{
               fontFamily: "var(--font-display)",
               fontStyle: "italic",
-              fontSize: "1.4rem",
+              fontSize: "22px",
               color: "var(--paper)",
             }}
           >
@@ -60,8 +60,8 @@ export default function Header() {
                 href={link.href}
                 style={{
                   fontFamily: "var(--font-mono)",
-                  fontSize: "0.82rem",
-                  letterSpacing: "0.04em",
+                  fontSize: "13px",
+                  letterSpacing: "0.64px",
                   color: "var(--paper)",
                   opacity: 0.85,
                 }}
@@ -74,11 +74,11 @@ export default function Header() {
               className="mt-2 mt-md-0"
               style={{
                 fontFamily: "var(--font-mono)",
-                fontSize: "0.78rem",
-                letterSpacing: "0.04em",
+                fontSize: "12px",
+                letterSpacing: "0.64px",
                 border: "1px solid var(--gold)",
                 color: "var(--gold)",
-                padding: "0.5rem 1rem",
+                padding: "8px 16px",
                 borderRadius: "999px",
                 display: "inline-block",
                 width: "fit-content",

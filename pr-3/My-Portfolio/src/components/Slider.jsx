@@ -48,10 +48,10 @@ export default function Slider() {
       id="slider"
       style={{
         position: "relative",
-        minHeight: "100svh",
+        minHeight: "100%",
         display: "flex",
         alignItems: "center",
-        paddingTop: "6rem",
+        paddingTop: "96px",
         overflow: "hidden",
         background:
           "radial-gradient(ellipse at top right, rgba(232,184,75,0.08), transparent 55%), var(--ink)",
@@ -63,7 +63,7 @@ export default function Slider() {
             <p className="eyebrow mb-3">{`0${active + 1} — ${slide.tag}`}</p>
             <h1
               style={{
-                fontSize: "clamp(2.1rem, 5.4vw, 4.4rem)",
+                fontSize: "clamp(35px, 5.4vw,70px)",
                 lineHeight: 1.06,
                 color: "var(--paper)",
                 maxWidth: "18ch",
@@ -76,9 +76,9 @@ export default function Slider() {
             <p
               style={{
                 color: "var(--muted)",
-                fontSize: "1.05rem",
-                maxWidth: "46ch",
-                marginTop: "1.5rem",
+                fontSize: "16px",
+                width: "100%",
+                marginTop: "24px",
               }}
             >
               {slide.copy}
@@ -89,10 +89,10 @@ export default function Slider() {
               className="d-inline-flex align-items-center gap-2 mt-4"
               style={{
                 fontFamily: "var(--font-mono)",
-                fontSize: "0.85rem",
+                fontSize: "16px",
                 color: "var(--gold)",
                 borderBottom: "1px solid var(--gold-dim)",
-                paddingBottom: "0.2rem",
+                paddingBottom: "10px",
               }}
             >
               See the work ↓
@@ -100,7 +100,7 @@ export default function Slider() {
           </div>
         </div>
 
-        {/* Vertical tick indicators — doubles as the slide counter */}
+        {}
         <div
           className="d-none d-md-flex flex-column gap-3"
           style={{ position: "absolute", right: "2.5rem", top: "50%", transform: "translateY(-50%)" }}
@@ -131,13 +131,13 @@ export default function Slider() {
         aria-hidden
         style={{
           position: "absolute",
-          bottom: "1.75rem",
+          bottom: "28px",
           left: 0,
           right: 0,
           textAlign: "center",
           fontFamily: "var(--font-mono)",
-          fontSize: "0.7rem",
-          letterSpacing: "0.14em",
+          fontSize: "10px",
+          letterSpacing: "16px",
           color: "var(--muted)",
         }}
       >

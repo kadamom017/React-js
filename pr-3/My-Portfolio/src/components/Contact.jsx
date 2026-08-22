@@ -8,8 +8,8 @@ const inputStyle = {
   borderBottom: "1px solid var(--line)",
   borderRadius: 0,
   color: "var(--paper)",
-  padding: "0.7rem 0",
-  fontSize: "1rem",
+  padding: "11px 0",
+  fontSize: "16px",
 };
 
 export default function Contact() {
@@ -31,19 +31,19 @@ export default function Contact() {
         <Row className="gy-5">
           <Col lg={5}>
             <p className="eyebrow mb-3">Get in touch</p>
-            <h2 style={{ fontSize: "clamp(1.8rem, 3.4vw, 2.6rem)", color: "var(--paper)", maxWidth: "14ch" }}>
+            <h2 style={{ fontSize: "clamp(28px, 3.4vw, 40px)", color: "var(--paper)", maxWidth: "14ch" }}>
               Tell us what you&apos;re building.
             </h2>
-            <p style={{ color: "var(--muted)", marginTop: "1.25rem", maxWidth: "38ch" }}>
+            <p style={{ color: "var(--muted)", marginTop: "16px", maxWidth: "38ch" }}>
               Send a short brief and we&apos;ll reply within two working days with next
               steps, or a straight answer if we&apos;re not the right fit.
             </p>
 
             <div className="mt-5">
-              <p style={{ fontFamily: "var(--font-mono)", fontSize: "0.85rem", color: "var(--paper)" }}>
+              <p style={{ fontFamily: "var(--font-mono)", fontSize: "13px", color: "var(--paper)" }}>
                 hello@northlinestudio.com
               </p>
-              <p style={{ fontFamily: "var(--font-mono)", fontSize: "0.85rem", color: "var(--muted)" }}>
+              <p style={{ fontFamily: "var(--font-mono)", fontSize: "13px", color: "var(--muted)" }}>
                 Surat, India — working with clients everywhere
               </p>
             </div>
@@ -55,11 +55,11 @@ export default function Contact() {
                 style={{
                   border: "1px solid var(--line)",
                   borderRadius: "8px",
-                  padding: "2.5rem",
+                  padding: "40px",
                 }}
               >
                 <p className="eyebrow mb-2">Message sent</p>
-                <h3 style={{ color: "var(--paper)", fontSize: "1.4rem" }}>
+                <h3 style={{ color: "var(--paper)", fontSize: "22px" }}>
                   Thanks, {form.name.split(" ")[0] || "there"} — we&apos;ll be in touch soon.
                 </h3>
               </div>
@@ -114,10 +114,10 @@ export default function Contact() {
                         border: "none",
                         color: "var(--ink)",
                         fontFamily: "var(--font-mono)",
-                        fontSize: "0.85rem",
-                        padding: "0.7rem 1.8rem",
+                        fontSize: "13px",
+                        padding: "11px 28px",
                         borderRadius: "999px",
-                        marginTop: "0.5rem",
+                        marginTop: "8px",
                       }}
                     >
                       Send message
