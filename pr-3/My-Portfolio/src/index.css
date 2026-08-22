@@ -1,0 +1,74 @@
+:root {
+  --ink: #0b0b0c;
+  --surface: #151517;
+  --surface-raised: #1c1c1f;
+  --paper: #f5f3ee;
+  --muted: #9a968c;
+  --gold: #e8b84b;
+  --gold-dim: #8a6f2e;
+  --line: rgba(245, 243, 238, 0.12);
+
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio L", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body), sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.eyebrow {
+  font-family: var(--font-mono), monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--gold);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.container-wide {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .container-wide {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}

@@ -1,0 +1,156 @@
+.contact-section {
+  padding: 110px 0;
+  background:#F2F4F1;
+}
+
+.contact-faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1fr;
+  gap: 45px;
+  align-items: center;
+}
+
+
+.contact-form-area h2,
+.faq-area h2 {
+  font-size: 40px;
+  color: #263238;
+  margin-bottom: 28px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 15px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6b61;
+}
+
+.send-btn {
+  align-self: flex-start;
+  padding: 14px 28px;
+  background: #263238;
+  color: #ffffff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  background: #ff6b61;
+  transform: translateY(-3px);
+}
+
+
+.contact-image {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.contact-image-shape {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #f6d4ca;
+  bottom: 35px;
+}
+
+.contact-image img {
+  position: relative;
+  z-index: 2;
+  width: 260px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 130px 130px 25px 25px;
+}
+
+
+.faq-list {
+  border-top: 1px solid #e8e8e8;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 18px 0;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  color: #263238;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.faq-symbol {
+  color: #ff6b61;
+  font-size: 20px;
+}
+
+.faq-answer {
+  padding: 0 0 18px;
+  color: #707779;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+@media (max-width: 1000px) {
+  .contact-faq-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-image {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-section {
+    padding: 75px 0;
+  }
+
+  .contact-faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-area h2,
+  .faq-area h2 {
+    font-size: 34px;
+  }
+}
