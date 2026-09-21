@@ -22,6 +22,14 @@ This project allows users to register their information, view registered users, 
 
 ---
 
+## Video Explanation
+
+Watch the full walkthrough and feature overview:
+
+> **[Watch Video Walkthrough & Code Explanation](https://drive.google.com/file/d/1a-xqCx6jbWOEZnW_9IOsHHKQvu22lLP0/view?usp=sharing)**
+
+---
+
 ## Features
 
 - User registration form
