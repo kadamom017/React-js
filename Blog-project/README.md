@@ -192,7 +192,7 @@ Available actions: **Add Blog** · **Edit** · **Delete** · **Search**
 git clone https://github.com/kadamom017/React-js.git
 
 # 2. Move into the project folder
-cd your-repo-name
+cd Reac-js
 
 # 3. Install dependencies
 npm install
@@ -245,7 +245,7 @@ The app runs at `http://localhost:3000` (or the port shown in your terminal) and
 ## 👤 Author
 
 **Your Name**
-GitHub: [@your-username](https://github.com/kadamom017)
+GitHub: [@kadamom017](https://github.com/kadamom017)
 
 ---
 
