@@ -144,9 +144,8 @@
       "id": "11"
     },
     {
-      "id": "12",
       "name": "Raspberry Rose Cake",
-      "category": "Cakes",
+      "category": "Pastries",
       "price": 799,
       "oldPrice": 899,
       "rating": 4.9,
@@ -154,7 +153,8 @@
       "description": "A pretty celebration cake with raspberry layers and a subtle rose note.",
       "badge": "Seasonal favourite",
       "stock": 6,
-      "featured": false
+      "featured": false,
+      "id": "12"
     }
   ]
 }

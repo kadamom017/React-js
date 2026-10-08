@@ -8,6 +8,14 @@ Visitors can browse and search blogs, while admins can **add, update, delete, an
 
 ---
 
+## Video Explanation
+
+Watch the full walkthrough and feature overview:
+
+> **[Watch Video Walkthrough & Code Explanation](https://drive.google.com/drive/folders/1Sy-R7ooPA5VQssVQF5gRPkkRPH_DMkrQ)**
+
+---
+
 ## 📌 Table of Contents
 
 - [Features](#-features)
@@ -192,7 +200,7 @@ Available actions: **Add Blog** · **Edit** · **Delete** · **Search**
 git clone https://github.com/kadamom017/React-js.git
 
 # 2. Move into the project folder
-cd Reac-js
+cd Reac-js 
 
 # 3. Install dependencies
 npm install
