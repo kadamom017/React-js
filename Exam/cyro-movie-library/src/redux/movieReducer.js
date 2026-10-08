@@ -7,7 +7,6 @@ import {
 } from "../services/movieApi";
 
 
-// Fetch popular movies
 export const fetchPopularMovies = createAsyncThunk(
   "movies/fetchPopularMovies",
   async () => {
@@ -17,7 +16,6 @@ export const fetchPopularMovies = createAsyncThunk(
 );
 
 
-// Search movies
 export const fetchSearchMovies = createAsyncThunk(
   "movies/fetchSearchMovies",
   async (query) => {
@@ -27,7 +25,6 @@ export const fetchSearchMovies = createAsyncThunk(
 );
 
 
-// Fetch movie details
 export const fetchMovieDetails = createAsyncThunk(
   "movies/fetchMovieDetails",
   async (movieId) => {
@@ -64,7 +61,6 @@ const movieSlice = createSlice({
   extraReducers: (builder) => {
     builder
 
-      // Popular Movies
       .addCase(fetchPopularMovies.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -80,8 +76,6 @@ const movieSlice = createSlice({
         state.error = "Failed to load popular movies.";
       })
 
-
-      // Search Movies
       .addCase(fetchSearchMovies.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -97,8 +91,6 @@ const movieSlice = createSlice({
         state.error = "Failed to search movies.";
       })
 
-
-      // Movie Details
       .addCase(fetchMovieDetails.pending, (state) => {
         state.loading = true;
         state.error = null;
@@ -116,11 +108,9 @@ const movieSlice = createSlice({
   },
 });
 
-
 export const {
   clearSearchResults,
   clearSelectedMovie,
 } = movieSlice.actions;
-
 
 export default movieSlice.reducer;

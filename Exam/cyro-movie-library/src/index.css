@@ -14,8 +14,6 @@ a {
   text-decoration: none;
 }
 
-/* Navbar */
-
 .navbar {
   min-height: 64px;
   border-bottom: 1px solid #292929;
@@ -25,8 +23,6 @@ a {
   font-size: 25px;
   letter-spacing: 2px;
 }
-
-/* Hero */
 
 .hero-section {
   min-height: 330px;
@@ -72,8 +68,6 @@ a {
   line-height: 1.7;
 }
 
-/* Movie Section */
-
 .movie-section {
   width: 1100px;
   max-width: 90%;
@@ -100,8 +94,6 @@ a {
   grid-template-columns: repeat(5, 1fr);
   gap: 22px;
 }
-
-/* Movie Card */
 
 .movie-card {
   background: #191919;
@@ -179,23 +171,17 @@ a {
   color: #111;
 }
 
-/* Loading */
-
 .loading {
   text-align: center;
   padding: 70px 0;
   color: #aaa;
 }
 
-/* Error */
-
 .error-message {
   text-align: center;
   padding: 50px;
   color: #ff6b6b;
 }
-
-/* Responsive */
 
 @media (max-width: 1000px) {
   .movie-grid {
@@ -222,8 +208,6 @@ a {
     height: 260px;
   }
 }
-
-/* Movie Details */
 
 .details-page {
   min-height: calc(100vh - 64px);
@@ -341,8 +325,6 @@ a {
     font-size: 32px;
   }
 }
-
-/* Search Page */
 
 .search-page {
   min-height: calc(100vh - 64px);
@@ -564,7 +546,7 @@ a {
   .saved-card img {
     height: 240px;
   }
-}/* Profile Page */
+}
 
 .profile-page {
   min-height: calc(100vh - 64px);
@@ -784,15 +766,9 @@ a {
   background: #ddd;
 }
 
-
-/* Navbar Logout Button */
-
 .navbar .btn-link {
   text-decoration: none;
 }
-
-
-/* Better Mobile Details */
 
 @media (max-width: 576px) {
   .hero-section {

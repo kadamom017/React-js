@@ -51,7 +51,7 @@ function Profile() {
 
       </div>
 
-      {/* Favorites */}
+      {}
 
       <section className="saved-section">
         <div className="saved-heading">
@@ -99,7 +99,7 @@ function Profile() {
         )}
       </section>
 
-      {/* Watchlist */}
+      {}
 
       <section className="saved-section">
         <div className="saved-heading">
